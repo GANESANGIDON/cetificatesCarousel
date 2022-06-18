@@ -1,44 +1,50 @@
 [
   {
     "id":"1",
-    "profilePic":"",
+    "profilePic":"images/certificatesProfilePic/Gourav.jpeg",
     "name": "Gourav Rathore",
     "msg":"I have successfully completed Python course at Log2Base2 thank you Log2Base2",
-    "certificateSrc":""
+    "certificateSrc":"images/certificatesPic/Gourav-certificate.jpeg",
+    "postLink":"https://www.linkedin.com/posts/gourav-rathore-81624a230_log2base2-coding-cprogramming-activity-6934413837307637760-8KVS?utm_source=linkedin_share&utm_medium=member_desktop_web"
   },
   {
     "id":"2",
-    "profilePic":"",
+    "profilePic":"images/certificatesProfilePic/Kamalesh.jpeg",
     "name":"Kamalesh Ponnur",
     "msg":"I have completed my Python course at Log2Base2 and I wanted to share my certificate on course completion. It is a great experience. It is visualization learning platform where you can understand each and every concept easily. Thank you Log2Base2 for providing this course.",
-    "certificateSrc":""
+    "certificateSrc":"images/certificatesPic/Kamalesh-certificate.jpeg",
+    "postLink":"https://www.linkedin.com/posts/kamalesh-ponnur_log2base2-coding-programming-activity-6926223937643188224-q8UV?utm_source=linkedin_share&utm_medium=member_desktop_web"
   },
   {
     "id":"3",
-    "profilePic":"",
+    "profilePic":"images/certificatesProfilePic/CHARAN.jpeg",
     "name":"CHARAN nandarapu",
     "msg":"I have successfully completed Data Structure course at Log2Base2. Log2Base2 - The Visual Learning Platform",
-    "certificateSrc":""
+    "certificateSrc":"images/certificatesPic/CHARAN-certificate.jpeg",
+    "postLink":"https://www.linkedin.com/posts/charan-nandarapu_log2base2-coding-cprogramming-activity-6921140016337354752-O1Vc?utm_source=linkedin_share&utm_medium=member_desktop_web"
   },
   {
     "id":"4",
-    "profilePic":"",
+    "profilePic":"images/certificatesProfilePic/Kritika.jpeg",
     "name":"Kritika Goswami",
     "msg":"I have successfully completed Data Structure course at Log2Base2",
-    "certificateSrc":""
+    "certificateSrc":"images/certificatesPic/Kritika-certificate.jpeg",
+    "postLink":"https://www.linkedin.com/posts/kritika-goswami-78714721b_log2base2-coding-cprogramming-activity-6921113865359355904-oFDy?utm_source=linkedin_share&utm_medium=member_desktop_web"
   },
   {
     "id":"5",
-    "profilePic":"",
+    "profilePic":"images/certificatesProfilePic/Anas.jpeg",
     "name":"Anas Rehman",
-    "msg":"I have successfully completed Time Complexity Analysis course at Log2Base2. It's amazing content to learn about Time Complexity using Visual Animation. Hey my dear friends, try to use this course it will be helpful for all beginners.  I personally really enjoy learning from Log2Base2, This is my first programming course, very comprehensive, I learned more things than I expected, The way how the animated video explains topics is fantastic. Thank you Log2base2 team. Log2Base2 - The Visual Learning Platform",
-    "certificateSrc":""
+    "msg":"I have successfully completed Time Complexity Analysis course at Log2Base2. It's amazing content to learn about Time Complexity using Visual Animation. Hey my dear friends, try to use this course it will be helpful for all beginners.  I personally really enjoy learning from Log2Base2, This is my first programming course, very comprehensive, I learned more things than I expected, The way how the animated video explains topics is fantastic. Thank you Log2base2 team.",
+    "certificateSrc":"images/certificatesPic/Anas-certificate.jpeg",
+    "postLink":"https://www.linkedin.com/posts/anas-rehman-722897151_log2base2-coding-cprogramming-activity-6917402278362583040-HUrW?utm_source=linkedin_share&utm_medium=member_desktop_web"
   },
   {
     "id":"6",
-    "profilePic":"",
+    "profilePic":"images/certificatesProfilePic/Neeraj.jpeg",
     "name":"Neeraj Ravi Pratap",
-    "msg":" have successfully completed Coding Interview Patterns course at Log2Base2. Awesome Content Provide By Log2Base2 for Coding Interviews. Log2Base2 - The Visual Learning Platform",
-    "certificateSrc":""
+    "msg":"I have successfully completed Coding Interview Patterns course at Log2Base2. Awesome Content Provide By Log2Base2 for Coding Interviews. Log2Base2 - The Visual Learning Platform",
+    "certificateSrc":"images/certificatesPic/Neeraj-certificate.jpeg",
+    "postLink":"https://www.linkedin.com/posts/neeraj-ravi-pratap-439058205_log2base2-coding-cprogramming-activity-6854718726747553793--Hpq?utm_source=linkedin_share&utm_medium=member_desktop_web"
   }
 ]
