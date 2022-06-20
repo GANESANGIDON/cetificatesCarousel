@@ -1,11 +1,10 @@
-import React from "react";
+import React, {Fragment} from "react";
 import CertificatesSlider from "./CertificatesSlider";
 
 export default function Certificates() {
   return (
-    <>
-      {console.log("hi")}
+    <Fragment>
       <CertificatesSlider />
-    </>
+    </Fragment>
   );
 }

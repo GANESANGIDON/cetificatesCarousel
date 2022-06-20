@@ -1,4 +1,4 @@
-import React from "react";
+import React, {Fragment} from "react";
 import { Row } from "react-bootstrap";
 import CertificateItem from "./CertificatesItem";
 import CertificatesData from "./CertificatesData.json";
@@ -11,7 +11,7 @@ import "./CertificatesSlider.css";
 
 export default function CertificatesSlider() {
   return (
-    <>
+    <Fragment>
       <div className="w-100 my-3">
         <Row className="col-11 mx-auto" id="certificates-section-container">
           <div id="certificate-heading" className="py-3">
@@ -54,6 +54,6 @@ export default function CertificatesSlider() {
           </Swiper>
         </Row>
       </div>
-    </>
+    </Fragment>
   );
 }

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Fragment } from "react";
 import "./CertificatesItem.css";
 import { Button, Card, Col } from "react-bootstrap";
 
@@ -6,7 +6,7 @@ export default function CertificatesItem({ data }) {
   const { profilePic, name, profession, msg, certificateSrc, postLink } = data;
 
   return (
-    <>
+    <Fragment>
       <Card className="certificates-card h-100 px-3 py-0 border-0">
         <Card.Body>
           <a
@@ -65,6 +65,6 @@ export default function CertificatesItem({ data }) {
           {/* view post button ends */}
         </Card.Body>
       </Card>
-    </>
+    </Fragment>
   );
 }
