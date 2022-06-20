@@ -3,11 +3,20 @@ import "./CertificatesItem.css";
 import { Button, Card, Col } from "react-bootstrap";
 
 export default function CertificatesItem({ data }) {
-  const { profilePic, name, profession, msg, certificateSrc, postLink } = data;
+  const {
+    profilePic,
+    name,
+    profession,
+    msg,
+    secondaryText,
+    hashtag,
+    certificateSrc,
+    postLink,
+  } = data;
 
   return (
     <Fragment>
-      <Card className="certificates-card h-100 px-3 py-0 border-0">
+      <Card className="certificates-card h-100 px-3 py-1 border-0">
         <Card.Body>
           <a
             href={postLink}
@@ -38,7 +47,23 @@ export default function CertificatesItem({ data }) {
                 </div>
                 {/* profile details ends */}
               </div>
-              <Card.Text className="certificates-text mt-2">{msg}</Card.Text>
+              <Card.Text className="certificates-text py-2 my-0">
+                {msg}
+              </Card.Text>
+              {/* secondary text starts */}
+              {secondaryText && hashtag ? (
+                <Fragment>
+                  <Card.Text className="certificates-text pb-2 my-0">
+                    {secondaryText}
+                  </Card.Text>
+                  <b className="certificates-text text-primary pb-2 my-0">
+                    {hashtag}
+                  </b>
+                </Fragment>
+              ) : (
+                ""
+              )}
+              {/* secondary text ends */}
             </Col>
             {/* profile division ends */}
             {/* cerificate division starts */}
@@ -59,11 +84,14 @@ export default function CertificatesItem({ data }) {
               rel="noopener noreferrer"
               className="btn-primary bg-gradient form-control"
             >
-              View Post
+              <span>
+                <b>View Post on Linkedin</b>
+              </span>
             </Button>
           </div>
           {/* view post button ends */}
         </Card.Body>
+      
       </Card>
     </Fragment>
   );

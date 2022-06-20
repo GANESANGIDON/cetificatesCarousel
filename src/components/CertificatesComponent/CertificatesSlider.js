@@ -1,4 +1,4 @@
-import React, {Fragment} from "react";
+import React, { Fragment } from "react";
 import { Row } from "react-bootstrap";
 import CertificateItem from "./CertificatesItem";
 import CertificatesData from "./CertificatesData.json";
@@ -15,9 +15,18 @@ export default function CertificatesSlider() {
       <div className="w-100 my-3">
         <Row className="col-11 mx-auto" id="certificates-section-container">
           <div id="certificate-heading" className="py-3">
-            <p className="mb-1 certificate-slider-heading" id="certificate-slider-large-heading">Don't just listen to us,</p>
-            <p className="mb-1 certificate-slider-heading" id="certificate-slider-small-heading">Listen to those who have completed our
-            courses.</p>
+            <p
+              className="mb-1 certificate-slider-heading"
+              id="certificate-slider-large-heading"
+            >
+              Don't just listen to us,
+            </p>
+            <p
+              className="mb-1 certificate-slider-heading"
+              id="certificate-slider-small-heading"
+            >
+              Listen to those who have completed our courses.
+            </p>
           </div>
           <Swiper
             spaceBetween={40}

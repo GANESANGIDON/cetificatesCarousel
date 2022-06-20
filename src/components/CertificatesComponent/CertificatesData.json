@@ -22,7 +22,9 @@
     "profilePic": "images/certificatesProfilePic/Neeraj.jpeg",
     "name": "Neeraj Ravi Pratap",
     "profession": "Student at National Institute of Technology Kurukshetra",
-    "msg": "I have successfully completed Coding Interview Patterns course at Log2Base2. Awesome Content Provide By Log2Base2 for Coding Interviews. Log2Base2 - The Visual Learning Platform",
+    "msg": "I have successfully completed Coding Interview Patterns course at Log2Base2. Awesome Content Provide By Log2Base2 for Coding Interviews.",
+    "secondaryText": "Log2Base2 - The Visual Learning Platform",
+    "hashtag": "#log2base2 #coding #codinginterview #interviewpreparation",
     "certificateSrc": "images/certificatesPic/Neeraj-certificate.jpeg",
     "postLink": "https://www.linkedin.com/posts/neeraj-ravi-pratap-439058205_log2base2-coding-cprogramming-activity-6854718726747553793--Hpq?utm_source=linkedin_share&utm_medium=member_desktop_web"
   },
@@ -31,7 +33,9 @@
     "profilePic": "images/certificatesProfilePic/CHARAN.jpeg",
     "name": "CHARAN nandarapu",
     "profession": "Student of SRM UNIVERSITY",
-    "msg": "I have successfully completed Data Structure course at Log2Base2. Log2Base2 - The Visual Learning Platform",
+    "msg": "I have successfully completed Data Structure course at Log2Base2.",
+    "secondaryText": "Log2Base2 - The Visual Learning Platform",
+    "hashtag": "#log2base2 #coding #datastructures",
     "certificateSrc": "images/certificatesPic/CHARAN-certificate.jpeg",
     "postLink": "https://www.linkedin.com/posts/charan-nandarapu_log2base2-coding-cprogramming-activity-6921140016337354752-O1Vc?utm_source=linkedin_share&utm_medium=member_desktop_web"
   },
@@ -40,7 +44,9 @@
     "profilePic": "images/certificatesProfilePic/Gourav.jpeg",
     "name": "Gourav Rathore",
     "profession": "Student at LNCT Group of Colleges",
-    "msg": "I have successfully completed Python course at Log2Base2 thank you Log2Base2",
+    "msg": "I have successfully completed Python course at Log2Base2 thank you Log2Base2.",
+    "secondaryText": "Log2Base2 - The Visual Learning Platform",
+    "hashtag": "#log2base2 #coding #python",
     "certificateSrc": "images/certificatesPic/Gourav-certificate.jpeg",
     "postLink": "https://www.linkedin.com/posts/gourav-rathore-81624a230_log2base2-coding-cprogramming-activity-6934413837307637760-8KVS?utm_source=linkedin_share&utm_medium=member_desktop_web"
   },
@@ -50,6 +56,8 @@
     "name": "Kritika Goswami",
     "profession": "Student at JECRC University",
     "msg": "I have successfully completed Data Structure course at Log2Base2",
+    "secondaryText": "Log2Base2 - The Visual Learning Platform",
+    "hashtag": "#log2base2 #coding #datastructures",
     "certificateSrc": "images/certificatesPic/Kritika-certificate.jpeg",
     "postLink": "https://www.linkedin.com/posts/kritika-goswami-78714721b_log2base2-coding-cprogramming-activity-6921113865359355904-oFDy?utm_source=linkedin_share&utm_medium=member_desktop_web"
   }
