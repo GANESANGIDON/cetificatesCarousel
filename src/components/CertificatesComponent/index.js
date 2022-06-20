@@ -1,10 +1,10 @@
 import React from 'react';
-import CertificateSlider from "./CertificateSlider";
+import CertificatesSlider from "./CertificatesSlider";
 
 export default function Certificates(){
 return(
 <>
-  <CertificateSlider />
+  <CertificatesSlider />
 </>
 );
 }

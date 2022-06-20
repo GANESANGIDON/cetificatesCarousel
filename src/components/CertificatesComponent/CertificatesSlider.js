@@ -1,22 +1,23 @@
 import React from "react";
 import { Row } from "react-bootstrap";
-import CertificateItem from "./CertificateItem";
-import CertificatesData from "./CertificateData.json";
+import CertificateItem from "./CertificatesItem";
+import CertificatesData from "./CertificatesData.json";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Pagination, Keyboard, EffectFlip } from "swiper";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/effect-flip";
+import "./CertificatesSlider.css";
 
-import "./CertificateItem.css";
-
-export default function CertificateSlider() {
+export default function CertificatesSlider() {
   return (
     <>
       <div className="w-100 my-3">
-        <Row className="col-11 mx-auto">
-          <div id="certificate-heading" className="text-center py-4">
-            See Our Learner's Certificate on LinkedIn
+        <Row className="col-11 mx-auto" id="certificates-section-container">
+          <div id="certificate-heading" className="py-3">
+            <p className="mb-1 certificate-slider-heading" id="certificate-slider-large-heading">Don't just listen to us,</p>
+            <p className="mb-1 certificate-slider-heading" id="certificate-slider-small-heading">Listen to those who have completed our
+            courses.</p>
           </div>
           <Swiper
             spaceBetween={40}
@@ -34,9 +35,8 @@ export default function CertificateSlider() {
               clickable: true,
             }}
             effect={"flip"}
-            className="p-1 mySwiper"
+            className="mySwiper"
             modules={[Autoplay, Pagination, Keyboard, EffectFlip]}
-            style={{ maxWidth: "750px" }}
           >
             {CertificatesData.map((data) => {
               return (

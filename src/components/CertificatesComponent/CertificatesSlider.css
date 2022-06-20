@@ -1,0 +1,39 @@
+#certificates-section-container{
+  max-width: 750px;
+}
+
+.certificate-slider-heading {
+  font-family: "Nunito", sans-serif, "Work Sans";
+  color: #4d4d4d;
+}
+
+#certificate-slider-large-heading {
+  font-weight: 800;
+  font-size: 1.5rem;
+}
+
+#certificate-slider-small-heading {
+  font-weight: 500;
+  font-size: 1.4rem;
+}
+
+/* swiper Slider properties */
+.swiper-wrapper {
+  padding-bottom: 40px;
+}
+
+.swiper-pagination-bullet{
+  width: 10px;
+  height: 10px;
+  margin-right: 15px !important;
+}
+
+/*--------------------------- For extra large laptop devices ---------------------------*/
+@media (min-width: 1201px) {
+  #certificate-slider-large-heading {
+    font-size: 1.75rem;
+  }
+  #certificate-slider-small-heading {
+    font-size: 1.5rem;
+  }
+}
