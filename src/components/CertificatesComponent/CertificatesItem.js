@@ -85,13 +85,12 @@ export default function CertificatesItem({ data }) {
               className="btn-primary bg-gradient form-control"
             >
               <span>
-                <b>View Post on Linkedin</b>
+                <b>View Post on LinkedIn</b>
               </span>
             </Button>
           </div>
           {/* view post button ends */}
         </Card.Body>
-      
       </Card>
     </Fragment>
   );
