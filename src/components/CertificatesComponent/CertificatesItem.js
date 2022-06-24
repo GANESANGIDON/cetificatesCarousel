@@ -26,6 +26,7 @@ export default function CertificatesItem({ data }) {
           >
             {/* profile division starts */}
             <Col md={6} className="px-0 pb-1 pe-md-2">
+              {/* certificates profile head starts */}
               <div className="certificates-profile-details d-flex align-items-center">
                 {/* profile picture starts */}
                 <div className="certificates-profile-pic-container">
@@ -47,6 +48,7 @@ export default function CertificatesItem({ data }) {
                 </div>
                 {/* profile details ends */}
               </div>
+              {/* certificates profile head ends */}
               <Card.Text className="certificates-text py-2 my-0">
                 {msg}
               </Card.Text>

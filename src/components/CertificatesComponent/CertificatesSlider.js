@@ -14,6 +14,7 @@ export default function CertificatesSlider() {
     <Fragment>
       <div className="w-100 my-3">
         <Row className="col-11 mx-auto" id="certificates-section-container">
+          {/* Certificate carousel heading starts */}
           <div id="certificate-heading" className="py-3">
             <p
               className="mb-1 certificate-slider-heading"
@@ -28,6 +29,8 @@ export default function CertificatesSlider() {
               Listen to those who have completed our courses.
             </p>
           </div>
+          {/* Certificate carousel heading ends */}
+          {/* Swiper Slider starts */}
           <Swiper
             spaceBetween={40}
             slidesPerView={1}
@@ -61,6 +64,7 @@ export default function CertificatesSlider() {
               );
             })}
           </Swiper>
+          {/* Swiper Slider ends */}
         </Row>
       </div>
     </Fragment>
